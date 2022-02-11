@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">ATapp</string>
+    <string name="pleaseSignin">Please Sign In</string>
+    <string name="pleaseRegist">Please Register</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="confPass">Confirm Password</string>
+    <string name="donthaveAcc">You don\'t have any account?</string>
+    <string name="register">Register</string>
+    <string name="renenver">Remember Me?</string>
+    <string name="signin">Sign In</string>
+    <string name="rememberMe">Remember Me</string>
+    <string name="logout">Logout</string>
+
+
+    <string name="selectDevice">Select Device</string>
+    <string name="dev1">Device 1</string>
+    <string name="dev2">Device 2</string>
+    <string name="dev3">Device 3</string>
+    <string name="dev4">Device 4</string>
+    <string name="inputIP">Masukkan IP Address</string>
+    <string name="connect">Connect</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="sos">SOS</string>
+    <string name="copyright">Copyright 2021</string>
+    <string name="videoLive">Video Live Streaming </string>
+    <string name="time">Time</string>
+    <string name="activity">Activity: </string>
+    <string name="status">Status: </string>
+    <string name="statVer">Status Verification:</string>
+    <string name="emergency">Emergency Contact</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="police">Police</string>
+    <string name="fireFighter">Firefighter</string>
+    <string name="ambulance">Ambulance</string>
+</resources>

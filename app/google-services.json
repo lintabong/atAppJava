@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "191607734669",
+    "firebase_url": "https://antithiefdb-default-rtdb.firebaseio.com",
+    "project_id": "antithiefdb",
+    "storage_bucket": "antithiefdb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:191607734669:android:4bb3cd4794ebd545047dc4",
+        "android_client_info": {
+          "package_name": "com.example.atapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "191607734669-vvj14925qd4kfptkbh8cnmr66tcpe49g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRipv3v2W82xXDwvo-iLKWU4co3knNGoc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "191607734669-vvj14925qd4kfptkbh8cnmr66tcpe49g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
