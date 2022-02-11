@@ -42,6 +42,7 @@
             android:layout_width="90dp"
             android:layout_height="90dp"
             android:layout_marginTop="40dp"
+            android:onClick="toHome"
             app:srcCompat="@mipmap/home" />
 
         <ImageView
@@ -49,6 +50,7 @@
             android:layout_width="90dp"
             android:layout_height="90dp"
             android:layout_marginTop="40dp"
+            android:onClick="toProfile"
             app:srcCompat="@mipmap/profile" />
 
         <ImageView
@@ -56,6 +58,7 @@
             android:layout_width="90dp"
             android:layout_height="90dp"
             android:layout_marginTop="40dp"
+            android:onClick="toSos"
             app:srcCompat="@mipmap/sos" />
 
     </LinearLayout>

@@ -35,9 +35,9 @@ public class HomeActivity extends AppCompatActivity {
         myRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
-                String myImage = dataSnapshot.child("activity").getValue(String.class);
+                String myImage = dataSnapshot.child("image").getValue(String.class);
                 String myActivity = dataSnapshot.child("activity").getValue(String.class);
-                String myStatus = dataSnapshot.child("activity").getValue(String.class);
+                String myStatus = dataSnapshot.child("status").getValue(String.class);
 
                 Picasso.get().load(myImage).into(imgDips);
                 textActivity.setText(myActivity);
