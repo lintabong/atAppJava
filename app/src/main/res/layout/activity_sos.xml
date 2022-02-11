@@ -37,6 +37,7 @@
                 android:id="@+id/UShome"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
+                android:onClick="sosToHome"
                 android:src="@mipmap/home"/>
 
             <TextView
@@ -143,6 +144,7 @@
                 android:layout_gravity="bottom"
                 android:layout_marginLeft="15dp"
                 android:clickable="true"
+                android:onClick="callPolice"
                 app:srcCompat="@android:drawable/ic_menu_call"
                 tools:ignore="SpeakableTextPresentCheck"
                 tools:layout_editor_absoluteX="56dp"
@@ -185,6 +187,7 @@
                 android:layout_gravity="bottom"
                 android:layout_marginLeft="15dp"
                 android:clickable="true"
+                android:onClick="callFF"
                 app:srcCompat="@android:drawable/ic_menu_call"
                 tools:ignore="SpeakableTextPresentCheck"
                 tools:layout_editor_absoluteX="56dp"
@@ -227,8 +230,9 @@
                 android:layout_gravity="bottom"
                 android:layout_marginLeft="15dp"
                 android:clickable="true"
+                android:onClick="callAmbulance"
                 app:srcCompat="@android:drawable/ic_menu_call"
-                tools:ignore="SpeakableTextPresentCheck"
+                tools:ignore="OnClick,SpeakableTextPresentCheck"
                 tools:layout_editor_absoluteX="56dp"
                 tools:layout_editor_absoluteY="315dp" />
         </LinearLayout>

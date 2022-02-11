@@ -30,11 +30,11 @@ public class LogInActivity extends AppCompatActivity {
                 String getUsername = editUsername.getText().toString();
                 String getPassword = editPassword.getText().toString();
 
-                if (getUsername == "admin" && getPassword == "admin"){
+                if (getUsername.equals("admin") && getPassword.equals("admin")){
                     Intent intent = new Intent(LogInActivity.this, DashboardActivity.class);
                     startActivity(intent);
                 } else {
-                    Toast.makeText(LogInActivity.this, "Maaf " + getUsername + getPassword, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(LogInActivity.this, "Maaf, username atau password anda salah", Toast.LENGTH_SHORT).show();
                 }
             }
         });

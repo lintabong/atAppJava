@@ -2,7 +2,9 @@ package com.example.atapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -49,5 +51,14 @@ public class HomeActivity extends AppCompatActivity {
                 // Failed to read value
             }
         });
+    }
+
+    public void homeToProfile(View view) {
+
+    }
+
+    public void homeToSos(View view) {
+        Intent intent = new Intent(HomeActivity.this, SosActivity.class);
+        startActivity(intent);
     }
 }

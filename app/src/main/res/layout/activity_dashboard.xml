@@ -59,7 +59,8 @@
             android:layout_height="90dp"
             android:layout_marginTop="40dp"
             android:onClick="toSos"
-            app:srcCompat="@mipmap/sos" />
+            app:srcCompat="@mipmap/sos"
+            tools:ignore="OnClick" />
 
     </LinearLayout>
 
