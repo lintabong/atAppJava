@@ -13,6 +13,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ATapp">
         <activity
+            android:name=".Profile2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Profile1Activity"
+            android:exported="false" />
+        <activity
             android:name=".LogoutActivity"
             android:exported="false" />
         <activity

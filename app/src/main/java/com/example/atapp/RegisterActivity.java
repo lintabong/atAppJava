@@ -40,7 +40,7 @@ public class RegisterActivity extends AppCompatActivity {
                 String getConfirm  = editConf.getText().toString();
                 
                 if (getPassword.equals(getConfirm)){
-                    myRef.child(getUsername).setValue(getPassword);
+                    myRef.child("user").child(getUsername).setValue(getPassword);
                 } else{
                     Toast.makeText(RegisterActivity.this, "Password dan Confirm Password, tidak tepat", Toast.LENGTH_SHORT).show();
                 }

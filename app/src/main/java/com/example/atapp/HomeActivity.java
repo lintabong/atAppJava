@@ -61,4 +61,9 @@ public class HomeActivity extends AppCompatActivity {
         Intent intent = new Intent(HomeActivity.this, SosActivity.class);
         startActivity(intent);
     }
+
+    public void homeToLogout(View view) {
+        Intent intent = new Intent(HomeActivity.this, LogoutActivity.class);
+        startActivity(intent);
+    }
 }
