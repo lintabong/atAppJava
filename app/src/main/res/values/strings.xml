@@ -12,6 +12,13 @@
     <string name="rememberMe">Remember Me</string>
     <string name="logout">Logout</string>
 
+    <string name="save">Save</string>
+    <string name="personalData">Personal Data</string>
+    <string name="textName">Name</string>
+    <string name="textAddr">Address</string>
+    <string name="textPass">Password</string>
+    <string name="textConf">Confirm Password</string>
+
     <string name="selectDevice">Select Device</string>
     <string name="dev1">Device 1</string>
     <string name="dev2">Device 2</string>

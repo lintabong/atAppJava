@@ -96,7 +96,108 @@
 
     </LinearLayout>
 
+    <LinearLayout
+        android:id="@+id/containerSetting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical"
+        android:gravity="start"
+        app:layout_constraintTop_toBottomOf="@id/layoutContainerSD"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/personalData"
+                android:textSize="11pt"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textName"
+                android:textSize="8pt"/>
+            <EditText
+                android:id="@+id/textName"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/input_style"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="@string/textName" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="@string/textAddr"
+                android:textSize="8pt"/>
+            <EditText
+                android:id="@+id/textAddress"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/input_style"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="@string/textAddr" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="@string/textPass"
+                android:textSize="8pt"/>
+            <EditText
+                android:id="@+id/textPass"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/input_style"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="@string/textPass" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="@string/textConf"
+                android:textSize="8pt"/>
+            <EditText
+                android:id="@+id/textConf"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/input_style"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="@string/textConf" />
+                
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/butSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Save"/>
+
+
+    </LinearLayout>
 
 
     <LinearLayout
