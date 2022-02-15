@@ -16,7 +16,7 @@
 
 
     <Button
-        android:id="@+id/InLogin"
+        android:id="@+id/butLogout"
         android:layout_width="120dp"
         android:layout_height="60dp"
         android:text="@string/logout"

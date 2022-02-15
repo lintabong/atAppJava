@@ -133,7 +133,7 @@
                     android:background="@drawable/input_style"
                     android:ems="10"
                     android:inputType="textPersonName"
-                    android:text="110"
+                    android:text="119"
                     tools:ignore="TouchTargetSizeCheck" />
             </LinearLayout>
 
@@ -176,7 +176,7 @@
                     android:background="@drawable/input_style"
                     android:ems="10"
                     android:inputType="textPersonName"
-                    android:text="113"
+                    android:text="112"
                     tools:ignore="TouchTargetSizeCheck" />
             </LinearLayout>
 

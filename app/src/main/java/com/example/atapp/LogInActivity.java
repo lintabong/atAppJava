@@ -39,4 +39,10 @@ public class LogInActivity extends AppCompatActivity {
             }
         });
     }
+
+    public void loginToResgister(View view) {
+        Intent intent = new Intent(LogInActivity.this,RegisterActivity.class);
+        startActivity(intent);
+
+    }
 }
