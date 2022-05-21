@@ -31,9 +31,9 @@
     <string name="sos">SOS</string>
     <string name="copyright">Copyright 2021</string>
     <string name="videoLive">Video Live Streaming </string>
-    <string name="time">Time</string>
-    <string name="activity">Activity: </string>
-    <string name="status">Status: </string>
+    <string name="time">Time : </string>
+    <string name="activity">Activity : </string>
+    <string name="status">Status : </string>
     <string name="statVer">Status Verification:</string>
     <string name="emergency">Emergency Contact</string>
 
