@@ -71,10 +71,12 @@ public class HomeActivity extends AppCompatActivity {
                 String myActivity = dataSnapshot.child("activity").getValue(String.class);
                 String myStatus = dataSnapshot.child("status").getValue(String.class);
                 String myNotif = dataSnapshot.child("pushnotif").getValue(String.class);
+                String myTime = dataSnapshot.child("time").getValue(String.class);
 
                 Picasso.get().load(myImage).into(imgDips);
                 textActivity.setText(myActivity);
                 textStatus.setText(myStatus);
+                textTime.setText(myTime);
 
                 if (myNotif.equals("active")) {
                     notificationManagerCompat.notify(1, notification);
@@ -86,13 +88,8 @@ public class HomeActivity extends AppCompatActivity {
                 // Failed to read value
             }
         });
-
-
-        Date today = new Date();
-        SimpleDateFormat formatter = new SimpleDateFormat("HH:MM");
-        textTime.setText(formatter.format(today));
-        blink();
     }
+
 
     public void homeToProfile(View view) {
         Intent intent = new Intent(HomeActivity.this, Profile1Activity.class);
@@ -109,28 +106,4 @@ public class HomeActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    private void blink() {
-        final Handler hander = new Handler();
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                try {
-                    Thread.sleep(550);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-                hander.post(new Runnable() {
-                    @Override
-                    public void run() {
-                        if (textTime.getVisibility() == View.VISIBLE) {
-                            textTime.setVisibility(View.INVISIBLE);
-                        } else {
-                            textTime.setVisibility(View.VISIBLE);
-                        }
-                        blink();
-                    }
-                });
-            }
-        }).start();
-    }
 }
