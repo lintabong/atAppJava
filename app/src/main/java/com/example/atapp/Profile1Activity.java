@@ -105,4 +105,9 @@ public class Profile1Activity extends AppCompatActivity {
         Intent intent = new Intent(Profile1Activity.this, HomeActivity.class);
         startActivity(intent);
     }
+
+    public void profileInfo(View view) {
+        Intent intent = new Intent(Profile1Activity.this, Profile2Activity.class);
+        startActivity(intent);
+    }
 }

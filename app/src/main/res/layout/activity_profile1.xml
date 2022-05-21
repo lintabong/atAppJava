@@ -97,6 +97,43 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/linkProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="start"
+        android:padding="10dp"
+        app:layout_constraintTop_toBottomOf="@id/layoutContainerSD"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            >
+            <TextView
+                android:id="@+id/settingLink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Setting"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:onClick="profileInfo">
+            <TextView
+                android:id="@+id/infoLink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Info"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
         android:id="@+id/containerSetting"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -106,7 +143,7 @@
         android:layout_marginBottom="10dp"
         android:orientation="vertical"
         android:gravity="start"
-        app:layout_constraintTop_toBottomOf="@id/layoutContainerSD"
+        app:layout_constraintTop_toBottomOf="@id/linkProfile"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
 
@@ -137,7 +174,7 @@
             <EditText
                 android:id="@+id/textName"
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
+                android:layout_height="50dp"
                 android:background="@drawable/input_style"
                 android:ems="10"
                 android:inputType="textPersonName"
@@ -151,7 +188,7 @@
             <EditText
                 android:id="@+id/textAddress"
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
+                android:layout_height="50dp"
                 android:background="@drawable/input_style"
                 android:ems="10"
                 android:inputType="textPersonName"
@@ -166,7 +203,7 @@
             <EditText
                 android:id="@+id/textPass"
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
+                android:layout_height="50dp"
                 android:background="@drawable/input_style"
                 android:ems="10"
                 android:inputType="textPersonName"
@@ -181,7 +218,7 @@
             <EditText
                 android:id="@+id/textConf"
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
+                android:layout_height="50dp"
                 android:background="@drawable/input_style"
                 android:ems="10"
                 android:inputType="textPersonName"
