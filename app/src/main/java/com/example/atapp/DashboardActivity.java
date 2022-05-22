@@ -68,6 +68,8 @@ public class DashboardActivity extends AppCompatActivity {
     }
 
     public void toProfile(View view) {
+        Intent intent = new Intent(DashboardActivity.this, Profile1Activity.class);
+        startActivity(intent);
     }
 
     public void toSos(View view) {
